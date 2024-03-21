@@ -6,10 +6,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "HelloGUI",
+            "name": "Driver",
             "request": "launch",
             "vmArgs": "--module-path \"C:/Program Files/JavaFX/lib\" --add-modules javafx.controls,javafx.fxml",
-            "mainClass": "HelloGUI",
+            "mainClass": "Driver",
             "projectName": "SemesterProject_b30ed4bb"
         },
     ]
