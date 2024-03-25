@@ -15,6 +15,6 @@ public class IllegalFileNameException extends RuntimeException{
     public void printStackTrace(){
         super.printStackTrace();
 
-        System.err.printf("Cannot write file with name \"%s\"\n", attemptedName);   
+        System.err.printf("Cannot use file with name \"%s\"\n", attemptedName);   
     }
 }

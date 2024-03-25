@@ -8,9 +8,16 @@
             "type": "java",
             "name": "Driver",
             "request": "launch",
+            "mainClass": "Driver",
+            "projectName": "TheProjectGuysIPromise_d6797768"
+        },
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
             "vmArgs": "--module-path \"C:/Program Files/JavaFX/lib\" --add-modules javafx.controls,javafx.fxml",
             "mainClass": "Driver",
             "projectName": "SemesterProject_b30ed4bb"
-        },
+        }
     ]
 }

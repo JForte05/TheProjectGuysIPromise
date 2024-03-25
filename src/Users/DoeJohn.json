@@ -1,5 +1,6 @@
 {
-    "name": "John Doe",
+    "fname": "John",
+    "lname": "Doe",
     "date-of-birth": "1970-12-31",
     "scores" : [0, 0, 1, 10000.1]
 }
