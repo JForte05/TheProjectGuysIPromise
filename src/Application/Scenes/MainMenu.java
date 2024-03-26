@@ -1,6 +1,7 @@
-package Scenes;
+package Application.Scenes;
 
 import Utils.Constants.TextConstants;
+import Application.App;
 import Utils.StylingUtils;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -36,7 +37,7 @@ public class MainMenu extends ProjectScene {
         BorderPane userInfo = new BorderPane();
 
         Label loggedInAs = new Label("Not Logged In");
-        loggedInAs.setFont(TextConstants.FONT_TITLE);
+        loggedInAs.setFont(TextConstants.FONT_USERREADOUT);
         BorderPane.setMargin(loggedInAs, new Insets(8));
         BorderPane.setAlignment(loggedInAs, Pos.TOP_RIGHT);
         userInfo.setRight(loggedInAs);
@@ -47,7 +48,7 @@ public class MainMenu extends ProjectScene {
         BorderPane.setAlignment(loginButton, Pos.TOP_LEFT);
         userInfo.setLeft(loginButton);
 
-        
+        loginButton.setOnAction((e) -> App.getInstance().loadScene(UserMenu.getInstance()));
 
         banner.setTop(userInfo);
 
